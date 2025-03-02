@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Spikes Protective Cover - Lucas Reed</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 16px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .file-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .file-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="https://lucasreed1.github.io/gallery/" class="back-button">← Back to Projects</a>
+        <h1>Track Spikes Protective Cover</h1>
+
+        <h2>Product Overview</h2>
+        <p><strong>Purpose:</strong> Protects track spikes from wear, dullness, dirt, and bag damage.</p>
+        <p><strong>Functionality:</strong> Clips onto the bottom of spikes for easy attachment and removal.</p>
+
+        <h2>Product Development & Innovation</h2>
+        <p><strong>Manufacturing Process:</strong> 3D printing, injection molding, thermoforming, die-cutting.</p>
+        <ul>
+            <li>Stronger design while maintaining a snug fit for various spike types.</li>
+            <li>Additional clip for easy attachment to backpacks.</li>
+            <li>Minimal market competition (2-3 similar products exist).</li>
+        </ul>
+
+        <h2>Design & Specifications</h2>
+        <ul>
+            <li><strong>Offset:</strong> 0.05 inches between protector and spike.</li>
+            <li><strong>Dimensions:</strong> 2 inches outward, 1.9 inches high from toebox.</li>
+            <li><strong>Materials:</strong> Initial prototype 3D printed; final material selection TBD.</li>
+        </ul>
+
+        <h2>Prototyping & Testing</h2>
+        <p>Prototyped using additive manufacturing. Adjustments made based on feedback to improve durability and usability.</p>
+
+        <h2>Design Process</h2>
+        <ol>
+            <li><strong>Design Brief:</strong> Develop a protective cover for track spikes.</li>
+            <li><strong>Generate Concepts:</strong> Explored clip-on and slip-on designs.</li>
+            <li><strong>Select Solution:</strong> Snug fit with an additional clip for portability.</li>
+            <li><strong>Prototype & Test:</strong> Built using 3D printing (MakerBot/Glowforge).</li>
+            <li><strong>Evaluation:</strong> Improved material strength and flexibility.</li>
+            <li><strong>Presentation:</strong> Created a 1-minute commercial for showcase.</li>
+        </ol>
+
+        <h2>References</h2>
+        <ul>
+            <li><a href="https://trackteks.com/" target="_blank">TrackTeks</a></li>
+            <li><a href="https://www.nike.com" target="_blank">Nike Track Spikes</a></li>
+            <li><a href="https://phys.org/news/2024-07-super-spikes-track.html" target="_blank">Super Spikes Research</a></li>
+        </ul>
+
+        <h2>Additional Resources</h2>
+        <ul>
+            <li><a class="file-link" href="https://github.com/lucasreed1/trackspikes/blob/main/Track%20Spike%20Protector%20Drawings.pdf" target="_blank">Track Spike Protector Drawings (PDF)</a></li>
+            <li><a class="file-link" href="https://github.com/lucasreed1/trackspikes/blob/main/Lucas%2BReeds%2BTrack%2BSpike%2BProtective%2BCovers.mp4" target="_blank">Track Spike Protective Covers Video (MP4)</a></li>
+            <li><a class="file-link" href="https://github.com/lucasreed1/trackspikes/blob/main/IMG_7520.HEIC" target="_blank">Track Spike Protector Image (HEIC)</a></li>
+        </ul>
+
+        <footer>
+            <p>© 2025 Lucas Reed</p>
+        </footer>
+    </div>
+
+</body>
+</html>
