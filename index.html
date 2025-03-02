@@ -40,12 +40,29 @@
             font-size: 14px;
             color: #666;
         }
-        .file-link {
-            color: #007bff;
-            text-decoration: none;
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
         }
-        .file-link:hover {
-            text-decoration: underline;
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -95,11 +112,20 @@
         </ul>
 
         <h2>Additional Resources</h2>
-        <ul>
-            <li><a class="file-link" href="https://github.com/lucasreed1/trackspikes/blob/main/Track%20Spike%20Protector%20Drawings.pdf" target="_blank">Track Spike Protector Drawings (PDF)</a></li>
-            <li><a class="file-link" href="https://github.com/lucasreed1/trackspikes/blob/main/Lucas%2BReeds%2BTrack%2BSpike%2BProtective%2BCovers.mp4" target="_blank">Track Spike Protective Covers Video (MP4)</a></li>
-            <li><a class="file-link" href="https://github.com/lucasreed1/trackspikes/blob/main/IMG_7520.HEIC" target="_blank">Track Spike Protector Image (HEIC)</a></li>
-        </ul>
+
+        <h3>Track Spike Protector Drawings (PDF)</h3>
+        <iframe src="https://github.com/lucasreed1/trackspikes/blob/main/Track%20Spike%20Protector%20Drawings.pdf"></iframe>
+
+        <h3>Track Spike Protective Covers Video</h3>
+        <div class="video-container">
+            <video controls>
+                <source src="https://github.com/lucasreed1/trackspikes/blob/main/Lucas%2BReeds%2BTrack%2BSpike%2BProtective%2BCovers.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h3>Track Spike Protector Image</h3>
+        <img src="https://github.com/lucasreed1/trackspikes/blob/main/IMG_7520.HEIC" alt="Track Spike Protector Image">
 
         <footer>
             <p>© 2025 Lucas Reed</p>
